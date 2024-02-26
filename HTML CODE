@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>StonePaperScisor</title>
+        <link rel="stylesheet" href="rockgame.css">
+</head>
+<body>
+        <div class="rock">
+                Rock Paper Scissors
+        </div>
+        <div class="head">
+                <div class="image" id="rock">
+                        <img src="C:\website code\rock.png">
+                </div>
+                <div class="image" id="paper">
+                        <img src="C:\website code\paper.png">
+                </div>
+                <div class="image" id="scissor">
+                        <img src="C:\website code\scissors.png">
+                </div>
+        </div>
+        <div class="head1">
+                <div class="paste">
+                        <h1 id="userscore">0</h1>
+                        <p>YOU</p>
+                </div>
+                <div class="paste" >
+                        <h1 id="compscore">0</h1>
+                        <p>COMPUTER</p>
+                </div>
+        </div>
+        <div id="msg">
+                <p>PLAY YOUR MOVE</p>
+        </div>
+        <script src="rockgame.js"></script>
+</body>
+</html>
